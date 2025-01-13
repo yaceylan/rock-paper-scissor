@@ -1,0 +1,29 @@
+{
+  "name": "rock-paper-scissor",
+  "version": "1.0.0",
+  "description": "Die Aufgaben befinden sich im exercises-Ordner.\r - [Hausaufgabe 13.01.2025](./exercises/01.md)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaceylan/rock-paper-scissor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaceylan/rock-paper-scissor/issues"
+  },
+  "homepage": "https://github.com/yaceylan/rock-paper-scissor#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
+  }
+}
