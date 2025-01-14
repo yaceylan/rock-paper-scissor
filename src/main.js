@@ -49,6 +49,7 @@ startButton.addEventListener('click', startGame);
 
 // Funktion zum Starten des Spiels 
 function startGame() {
+    startScreen.style.display = 'none'; // Startbildschirm wird ausgeblendet
 }
 
 
