@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/thumb.svg" />
+  <script type="module" defer src="/src/main.js"></script>
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <!-- Header-Bereich -->
+  <header>
+    <h1>Rock Paper Scissors</h1>
+    <div>
+      <span>Score</span>
+      <span id="score">0</span>
+    </div>
+  </header>
+
+  <!-- Hauptbereich mit Buttons -->
+  <main>
+    <button data-choice="paper">
+      <img src="./images/paper.svg" alt="Paper" />
+    </button>
+    <button data-choice="scissors">
+      <img src="./images/scissors.svg" alt="Scissors" />
+    </button>
+    <button data-choice="rock">
+      <img src="./images/rock.svg" alt="Rock" />
+    </button>
+  </main>
+
+  <!-- Startbildschirm -->
+  <div id="startscreen">
+    <h1>Rock</h1>
+    <h2>Paper</h2>
+    <h3>Scissors</h3>
+    <button id="startbutton">Start Game</button>
+  </div>
+
+  <!-- Regeln -->
+  <div id="rules">
+    <h2>Rules</h2>
+    <p>Rock Paper Scissors is a game that is played between two players...</p>
+    <img src="./images/close.svg" alt="Close" id="closebutton" />
+  </div>
+
+  <!-- Ergebnisanzeige -->
+  <div id="results">
+    <h3 id="result">You win</h3>
+    <div>
+      <p>You chose:</p>
+      <div id="userchoice"></div>
+    </div>
+    <div>
+      <p>Computer chose:</p>
+      <div id="computerchoice"></div>
+    </div>
+    <button id="playagain">Play Again</button>
+  </div>
+</body>
+</html>

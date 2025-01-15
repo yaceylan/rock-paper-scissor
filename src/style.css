@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Metalmania";
+  src: url("../fonts/MetalMania-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: 'Metalmania', sans-serif;
+  }
+  
+  h1, h2, h3, p {
+    font-family: 'Metalmania', sans-serif;
+  }
+
+  /* style.css */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 60vh; /* Passe die Höhe nach Bedarf an */
+  }
+  
+  .choice-button {
+    display: flex; /* Macht den Button zu einem Flex-Container */
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    /* ... andere Stile */
+  }
