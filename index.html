@@ -8,31 +8,32 @@
   <script type="module" defer src="/src/main.js"></script>
   <title>Rock Paper Scissors</title>
 </head>
-<body class=" mx-auto w-full grid bg-gradient-to-b from-blue-900 via-blue-800 to-blue-700 text-white p-10">
+<body class=" mx-auto w-full flex flex-col bg-gradient-to-b from-blue-900 via-blue-800 to-blue-700 text-white p-10">
   <!-- Header-Bereich -->
   <header class="container flex border rounded-2xl p-4 m-4 justify-between w-full">
-      <img src="./images/logo.svg" alt="Logo" class="w-16 h-16" />
       <div class="flex">
-      <h1 class="text-6xl">Rock<br> Paper<br> Scissors</h1>
+      <h1 class="text-6xl font-metalmania">Rock<br> Paper<br> Scissors</h1>
     </div>
     
-    <div  class="grid relative  bg-slate-50 text-black w-24 text-center rounded-xl">
+    <div class="grid relative  bg-slate-50 text-black w-24 text-center rounded-xl justify items-center">
       <span class="text-xl font-sans font-extrabold">Score</span>
       <span id="score" class="text-6xl font-sans font-extrabold">0</span>
     </div>
   </header>
 
   <!-- Hauptbereich mit Buttons -->
-  <main class="w-full flex justify-center">
-    <button data-choice="paper" class="relative h-32 w-32 border-8 border-yellow-500 rounded-full hover:w-36 hover:h-36">
+  <main class="w-full flex flex-col items-center space-y-4 justify-center">
+    <button data-choice="paper" class=" h-32 w-32 border-8 border-yellow-500 rounded-full hover:w-36 hover:h-36">
       <img src="./images/paper.svg" alt="Paper" />
     </button>
-    <button data-choice="scissors" class="relative bottom-48 h-32 w-32 border-8 border-red-500 rounded-full hover:w-36 hover:h-36" >
+    <div>
+    <button data-choice="scissors" class=" h-32 w-32 border-8 border-red-500 rounded-full hover:w-36 hover:h-36" >
       <img src="./images/scissors.svg" alt="Scissors" />
-    </button>
-    <button data-choice="rock" class="relative h-32 w-32 border-8 border-blue-500 rounded-full hover:w-36 hover:h-36">
+    
+  </button>
+    <button data-choice="rock" class=" h-32 w-32 border-8 border-blue-500 rounded-full hover:w-36 hover:h-36">
       <img src="./images/rock.svg" alt="Rock" />
-    </button>
+    </button></div>
   </main>
 
   <!-- Startbildschirm -->
