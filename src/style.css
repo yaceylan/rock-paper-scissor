@@ -24,8 +24,10 @@ main {
   }
   
   .choice-button {
-    display: flex; /* Macht den Button zu einem Flex-Container */
-    justify-content: center; /* Zentriert den Inhalt horizontal */
-    align-items: center; /* Zentriert den Inhalt vertikal */
-    /* ... andere Stile */
+    display: inline-block; /* Macht das Element zu einem Inline-Block */
+    padding: 1rem; /* Füge etwas Padding hinzu */
+    border: 1px solid black; /* Füge einen einfachen Rahmen hinzu */
+    background-color: #f0f0f0; /* Setze einen Hintergrund */
+    color: #333;
+    cursor: pointer;
   }
